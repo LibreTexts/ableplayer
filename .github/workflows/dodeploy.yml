@@ -15,7 +15,7 @@ jobs:
       with:
         args: --acl public-read
       env:
-        SOURCE_DIR: '.'
+        SOURCE_DIR: './dist'
         DEST_DIR: 'github/ableplayer'
         SPACE_NAME: ${{ secrets.Spaces_Name }}
         SPACE_REGION: ${{ secrets.Spaces_Region}}
